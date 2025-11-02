@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Nightmoon Icon</title>
+  <desc id="desc">Moon crescent glowing over a deep blue background</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#E5E6FF" />
+      <stop offset="0.55" stop-color="#C9CBFF" />
+      <stop offset="1" stop-color="rgba(5,10,26,0)" />
+    </radialGradient>
+    <linearGradient id="crescent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#A9B0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" fill="#050A1A" rx="24" />
+  <circle cx="64" cy="64" r="56" fill="url(#glow)" opacity="0.55" />
+  <path
+    d="M82 28a42 42 0 1 0 0 72 33 33 0 1 1 0-72z"
+    fill="url(#crescent)"
+  />
+</svg>
